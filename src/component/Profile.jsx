@@ -54,8 +54,11 @@ function Profile() {
         <img src={logo2} alt="hello" className="logo2" />
         <img src={logo1} alt="hello" className="logo1" />
       </div>
-      <div>
-        <button className="buttonstyle">Search with Name</button>
+      <div className="search_bar">
+        <input type="text"
+          placeholder="Search with Name..."
+          className="buttonstyle"
+        />
       </div>
 
       <div className="style1">

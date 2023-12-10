@@ -2,14 +2,11 @@
     width: 120px;
     height: 120px;
     object-fit: cover;
-    /* Adjust this to your preference (contain, cover) */
     border-radius: 50%;
-    /* Add rounded corners if needed */
     margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    /* Ensure the image is treated as a block element */
   }
   
   body {
@@ -32,13 +29,11 @@
     background-color: black;
   }
   
-  /* Your CSS file, e.g., Auth.css */
   
   .custom-textfield {
   
     box-shadow: inset 0px 3px 3px #1c01010f, 3px 3px 3px #4A494947;
     border: none;
-    /* Remove border */
     background: #2422229e 0% 0% no-repeat padding-box;
     mix-blend-mode: normal;
     opacity: 1;

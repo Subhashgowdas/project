@@ -1,25 +1,21 @@
-
 .logo1 {
     width: 10%;
     height: 10%;
     object-fit: cover;
-    /* Adjust this to your preference (contain, cover) */
     border-radius: 50%;
-    /* Add rounded corners if needed */
-    
     margin-left: auto;
     margin-right: auto;
     display: block;
-    /* Ensure the image is treated as a block element */
-  }
-  .logo2{
+}
+
+.logo2 {
     width: 8%;
     height: 8%;
     object-fit: cover;
     margin-left: 85%;
 }
 
-/* Your CSS file, e.g., Auth.css */
+
 .buttonstyle {
     width: 96%;
     height: 50px;
@@ -35,86 +31,89 @@
     border-radius: 25px;
     opacity: 0.4;
     border: none;
-  }
-  
-  
-  .aside4per{
+}
+
+
+.aside4per {
     top: 324px;
     left: 456px;
     border-radius: 25px;
     width: 6px;
     height: 11px;
-    /* UI Properties */
     background: #36A54680 0% 0% no-repeat padding-box;
     mix-blend-mode: normal;
     border: 1px solid #36A546;
     opacity: 1;
-  }
+}
 
-  .aside98per
-  {
+.aside98per {
     top: 379px;
-left: 457px;
-width: 140px;
-height: 11px;
-border-radius: 25px;
-/* UI Properties */
-background: #36A54680 0% 0% no-repeat padding-box;
-mix-blend-mode: normal;
-border: 1px solid #36A546;
-opacity: 1;
-  }
-.aside122per{
+    left: 457px;
+    width: 140px;
+    height: 11px;
+    border-radius: 25px;
+
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
+}
+
+.aside122per {
     top: 436px;
-left: 457px;
-width: 183px;
-height: 11px;
-border-radius: 25px;
-/* UI Properties */
-background: #36A54680 0% 0% no-repeat padding-box;
-mix-blend-mode: normal;
-border: 1px solid #36A546;
-opacity: 1;
+    left: 457px;
+    width: 183px;
+    height: 11px;
+    border-radius: 25px;
+
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
 }
-.aside93per{
+
+.aside93per {
     top: 491px;
-left: 456px;
-width: 132px;
-height: 11px;
-border-radius: 25px;
-/* UI Properties */
-background: #36A54680 0% 0% no-repeat padding-box;
-mix-blend-mode: normal;
-border: 1px solid #36A546;
-opacity: 1;
+    left: 456px;
+    width: 132px;
+    height: 11px;
+    border-radius: 25px;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
 }
-.aside89per{
+
+.aside89per {
     top: 546px;
-left: 456px;
-width: 132px;
-height: 11px;
-border-radius: 25px;
-background: #36A54680 0% 0% no-repeat padding-box;
-mix-blend-mode: normal;
-border: 1px solid #36A546;
-opacity: 1;
+    left: 456px;
+    width: 132px;
+    height: 11px;
+    border-radius: 25px;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
 }
-.aside98per{
+
+.aside98per {
     top: 600px;
-left: 456px;
-width: 146px;
-height: 11px;
-border-radius: 25px;
-background: #36A54680 0% 0% no-repeat padding-box;
-mix-blend-mode: normal;
-border: 1px solid #36A546;
-opacity: 1;
+    left: 456px;
+    width: 146px;
+    height: 11px;
+    border-radius: 25px;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
 }
-table{
+
+table {
     color: white;
     width: -webkit-fill-available;
 }
-body{
+
+body {
     background-color: black;
 }
 
@@ -133,44 +132,50 @@ body{
     opacity: 1;
     border-radius: 30px;
 }
-.footer1{
+
+.footer1 {
     width: 50%;
     display: flex;
     flex-direction: column;
-    
+
 }
-.footer2{
+
+.footer2 {
     width: 50%;
     display: flex;
     flex-direction: column;
-   
+
 }
-.footer1 button,.footer2 button{
-     height: 100%;
-     background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+
+.footer1 button,
+.footer2 button {
+    height: 100%;
+    background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
     box-shadow: inset 8px 4px 4px #00000040;
     mix-blend-mode: normal;
     border: 1px solid #0F2323;
     opacity: 1;
 }
-.footer1 button{
+
+.footer1 button {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-.footer2 button{
+
+.footer2 button {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 
 }
-.highlighted{
+
+.highlighted {
     background: #38383880 0% 0% no-repeat padding-box;
-mix-blend-mode: normal;
-border: 1px solid #000000;
-opacity: 1;
-filter: blur(7px);
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    opacity: 1;
+    filter: blur(7px);
 }
 
 .logo-container {
     position: relative;
-  }
-  
+}

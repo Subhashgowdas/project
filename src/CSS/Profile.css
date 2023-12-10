@@ -3,14 +3,11 @@
     height: 13%;
 
     object-fit: cover;
-    /* Adjust this to your preference (contain, cover) */
     border-radius: 50%;
-    /* Add rounded corners if needed */
 
     margin-left: auto;
     margin-right: auto;
     display: block;
-    /* Ensure the image is treated as a block element */
 }
 
 .logo2 {
@@ -21,32 +18,28 @@
     margin-left: 85%;
 }
 
-/* CustomButton.css */
-
-/* CustomButton.css */
-/* CustomButton.css */
 
 .buttonstyle {
     width: 65%;
-    /* Set the width as needed */
     height: 50px;
-    /* Set the height as needed */
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     color: #FFFFFFB3;
-    ;
-    /* Text color */
+    opacity: 1;
     font-size: 16px;
-    /* Font size */
     background: #5E5E5E82 0% 0% no-repeat padding-box;
     box-shadow: inset 0px 4px 0px #00000040;
     mix-blend-mode: normal;
     border-radius: 25px;
-    opacity: 0.4;
     border: none;
 
+
+}
+
+.search_bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    bottom: 18px;
 }
 
 button {
@@ -54,23 +47,25 @@ button {
     margin: 2rem auto;
 }
 
-.profile_box{
+.profile_box {
     background: rgba(65, 62, 62, 0.51) 0% 0% no-repeat padding-box;
     padding: 10px;
     margin-top: 1rem;
     border-radius: 30px;
     width: 80%;
-    text-align:justify;
-    text-size-adjust:inherit;
+    text-align: justify;
+    text-size-adjust: inherit;
 }
-.style1{
-    align-content:center;
+
+.style1 {
+    align-content: center;
     margin-left: 5%;
-    margin-right:5%;
-    
+    margin-right: 5%;
+
 }
-.style2{
-    align-content:center;
+
+.style2 {
+    align-content: center;
     margin-left: 12%;
 }
 
@@ -78,55 +73,64 @@ button {
     width: 100%;
     display: flex;
     height: 63px;
-    top:10vh;
+    top: 10vh;
     align-items: center;
-    position:relative;
+    position: relative;
     background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
-box-shadow: inset 8px 4px 4px #00000040;
-mix-blend-mode: normal;
-border: 1px solid #0F2323;
-opacity: 1;
-border-radius: 30px;
+    box-shadow: inset 8px 4px 4px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #0F2323;
+    opacity: 1;
+    border-radius: 30px;
 }
-.footer1{
+
+.footer1 {
     width: 50%;
     display: flex;
     flex-direction: column;
-    
+
 }
-.footer2{
+
+.footer2 {
     width: 50%;
     display: flex;
     flex-direction: column;
-   
+
 }
-.footer1 button,.footer2 button{
-     height: 100%;
-     background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+
+.footer1 button,
+.footer2 button {
+    height: 100%;
+    background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
     box-shadow: inset 8px 4px 4px #00000040;
     mix-blend-mode: normal;
     border: 1px solid #0F2323;
     opacity: 1;
 }
-.footer1 button{    border-top-left-radius: 50px;
+
+.footer1 button {
+    border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 }
-.footer2 button{
+
+.footer2 button {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 
 }
-.highlighted{
-    background: #38383880 0% 0% no-repeat padding-box;
-mix-blend-mode: normal;
-border: 1px solid #000000;
-opacity: 1;
-filter: blur(7px);
-}    
 
-h2 .name{
+.highlighted {
+    background: #38383880 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    opacity: 1;
+    filter: blur(7px);
+}
+
+h2 .name {
     color: rgba(222, 138, 92, 0.775);
 }
-body{
+
+body {
     background-color: #000000;
 }
