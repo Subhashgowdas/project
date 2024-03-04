@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import { IoMdHome } from "react-icons/io";
 import { FaUserAlt } from 'react-icons/fa';
 
-const Productivity = () => {
+const Productivity = () => { 
   const navigate = useNavigate();
   const [selectedButton, setSelectedButton] = useState(null);
 

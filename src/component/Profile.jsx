@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import { IoMdHome } from "react-icons/io";
 import { FaUserAlt } from 'react-icons/fa';
 
-
+ 
 function Profile() {
   const navigate = useNavigate();
   const data1 = {

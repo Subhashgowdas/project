@@ -4,7 +4,7 @@ import  "../CSS/Profile.css";
 
 const ProfileGrid = ({ data }) => {
   return (
-    <Grid  >
+    <Grid  > 
       <div className="profile_box">
       <h2 style={{ color: ' rgba(255, 255, 255, 0.562)' }}>Name: <span style={{ color: 'white' }}>{data.name}</span></h2>
         <h2 style={{ color: ' rgba(255, 255, 255, 0.562)' }}>EMP ID:<span style={{ color: 'white' }}> {data.empId}</span></h2>

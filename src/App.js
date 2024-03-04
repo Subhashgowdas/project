@@ -4,7 +4,7 @@ import Login from '../src/component/Login'; // Import your Login component
 import Productivity from './component/Productivity';
 import Profile from './component/Profile';
 
-function App() {
+function App() { 
   return (
     <Router>
       <div className="App">

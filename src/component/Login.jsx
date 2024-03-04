@@ -4,7 +4,7 @@ import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import {useNavigate} from 'react-router-dom'
 import logo from '../Images/home.png'
-import '../CSS/Login.css'
+import '../CSS/Login.css' 
 const Login = () => {
     const navigate =useNavigate();
     const handleSubmit = () => {
