@@ -7,14 +7,14 @@ import Profile from './component/Profile';
 function App() {
   return (
     <Router>
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/productivity" element={<Productivity />} />
-        <Route path="/profile" element={<Profile />} />
-      </Routes>
-    </div>
-  </Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/productivity" element={<Productivity />} />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
